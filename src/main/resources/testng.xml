@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ripping Code challenge">
+
+    <listeners>
+        <listener class-name="com.automation.helper.WebEventListener" />
+    </listeners>
+
+
+    <test name="Ripping Coding challenge">
+        <classes>
+            <class name="tasks.TaskOne"></class>
+            <class name="tasks.TaskTwo"></class>
+
+        </classes>
+    </test>
+</suite>
